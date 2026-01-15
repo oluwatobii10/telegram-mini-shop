@@ -89,7 +89,7 @@ function checkout() {
     };
 
     // Replace with your actual n8n Webhook URL
-    const n8nWebhookUrl = "https://oluwatobii100.app.n8n.cloud/webhook-test/mini-shop-order";
+    const n8nWebhookUrl = "https://oluwatobii100.app.n8n.cloud/webhook/mini-shop-order";
 
     fetch(n8nWebhookUrl, {
         method: "POST",
